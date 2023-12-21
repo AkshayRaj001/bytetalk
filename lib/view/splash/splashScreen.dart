@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:bytetalk/view/bottomnavigationbar.dart';
+
 import 'package:bytetalk/view/login/login.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';

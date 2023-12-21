@@ -1,4 +1,4 @@
-import 'package:bytetalk/view/bottomnavigationbar.dart';
+
 import 'package:bytetalk/view/splash/splashScreen.dart';
 import 'package:flutter/material.dart';
 

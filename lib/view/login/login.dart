@@ -1,4 +1,5 @@
 import 'package:bytetalk/view/bottomnavigationbar.dart';
+import 'package:bytetalk/view/login/forgotpassword.dart';
 import 'package:bytetalk/view/login/signup/signup.dart';
 import 'package:flutter/material.dart';
 
@@ -138,12 +139,15 @@ class _loginState extends State<login> {
                                 ),
                                 Container(
                                   alignment: Alignment.bottomRight,
-                                  child: Text(
-                                    "Forgot Password?",
-                                    style: TextStyle(
-                                        color: Colors.black,
-                                        fontSize: 16.0,
-                                        fontWeight: FontWeight.w500),
+                                  child: InkWell(
+                                    onTap: () => Navigator.push(context,MaterialPageRoute(builder: (context) => forgotpassword(),)),
+                                    child: Text(
+                                      "Forgot Password?",
+                                      style: TextStyle(
+                                          color: Colors.black,
+                                          fontSize: 16.0,
+                                          fontWeight: FontWeight.w500),
+                                    ),
                                   ),
                                 ),
                                 SizedBox(
