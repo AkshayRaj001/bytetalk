@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "204555700263",
+    "project_id": "bytetalk-ad0e1",
+    "storage_bucket": "bytetalk-ad0e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204555700263:android:764592f5f34face9686602",
+        "android_client_info": {
+          "package_name": "com.example.bytetalk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYBYMEd3metl2pOv7ZtVAvVKBcetIKmyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
