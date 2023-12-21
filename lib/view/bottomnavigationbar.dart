@@ -5,8 +5,7 @@ import 'package:bytetalk/view/settings.dart';
 import 'package:flutter/material.dart';
 import 'package:motion_tab_bar_v2/motion-badge.widget.dart';
 import 'package:motion_tab_bar_v2/motion-tab-bar.dart';
-import 'package:motion_tab_bar_v2/motion-tab-controller.dart';
-import 'package:motion_tab_bar_v2/motion-tab-item.dart';
+
 
 class bottomnavigationbar extends StatefulWidget {
   const bottomnavigationbar({super.key});
@@ -34,23 +33,23 @@ class _bottomnavigationbarState extends State<bottomnavigationbar> with TickerPr
     return Scaffold(
       bottomNavigationBar: MotionTabBar(
         
-     // ADD THIS if you need to change your tab programmatically
+     
     initialSelectedTab: "Call",
     labels: const ["Message", "Call", "contact", "Settings"],
     icons: const [Icons.message, Icons.call, Icons.contact_page, Icons.settings],
     
 
-    // optional badges, length must be same with labels
+   
     badges: [
-      // Default Motion Badge Widget
+      
       const MotionBadgeWidget(
         text: '99+',
-        textColor: Colors.white, // optional, default to Colors.white
-        color: Colors.red, // optional, default to Colors.red
-        size: 18, // optional, default to 18
+        textColor: Colors.white, 
+        color: Colors.red,
+        size: 18, 
       ),
 
-      // custom badge Widget
+      
       Container(
         color: Colors.black,
         padding: const EdgeInsets.all(2),
@@ -63,15 +62,14 @@ class _bottomnavigationbarState extends State<bottomnavigationbar> with TickerPr
         ),
       ),
 
-      // allow null
+      
       null,
 
-      // Default Motion Badge Widget with indicator only
       const MotionBadgeWidget(
         isIndicator: true,
-        color: Colors.red, // optional, default to Colors.red
-        size: 5, // optional, default to 5,
-        show: true, // true / false
+        color: Colors.red, 
+        size: 5, 
+        show: true, 
       ),
     ],
     tabSize: 50,

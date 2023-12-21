@@ -10,6 +10,8 @@ class message extends StatefulWidget {
 class _messageState extends State<message> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      backgroundColor: Colors.black,
+    );
   }
 }
