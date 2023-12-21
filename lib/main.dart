@@ -1,4 +1,5 @@
 import 'package:bytetalk/view/bottomnavigationbar.dart';
+import 'package:bytetalk/view/splash/splashScreen.dart';
 import 'package:flutter/material.dart';
 
 void main(){
@@ -15,7 +16,7 @@ class _MyappState extends State<Myapp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: bottomnavigationbar(),
+      home: splashScreen(),
     );
   }
 }
